@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
